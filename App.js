@@ -35,6 +35,7 @@ form.addEventListener("submit", async(e)=>
     }
     if(gender.value !=="" && activity.value!=="")
     {
+        card__holder.innerHTML=`<div id="loader"></div>`
       const data=BMR(gender.value,height.value,weight.value,age.value);
       const calories=data * (+activity.value);
     //   console.log(calories)
