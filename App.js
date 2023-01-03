@@ -51,8 +51,7 @@ form.addEventListener("submit", async(e)=>
     weight.value="";
     height.value="";
     age.value="";
-    gender.selectedIndex=0;
-    activity.selectedIndex=0;
+   
 })
 // generating melas card
 function generate_meals_card(mealData)
